@@ -10,6 +10,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SmartPantry" />
+        android:theme="@style/Theme.SmartPantry">
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecipeDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuggestedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddEditAcitivity"
+            android:exported="false" />
+    </application>
 
 </manifest>
